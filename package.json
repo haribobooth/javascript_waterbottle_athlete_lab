@@ -1,0 +1,14 @@
+{
+  "name": "water_bottle_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "waterBottle.js",
+  "scripts": {
+    "test": "mocha --reporter nyan waterBottle_spec.js && mocha --reporter nyan athlete_spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
