@@ -24,7 +24,7 @@ describe('Athlete', function() {
     assert.equal(0, athlete.distanceCovered);
   });
 
-  it('should run until hydrated', function(){
+  it('should run until dehydrated', function(){
     athlete.distanceCovered = 0;
     athlete.hydration = 50;
     athlete.run(150);
