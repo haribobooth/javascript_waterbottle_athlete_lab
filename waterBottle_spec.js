@@ -9,7 +9,7 @@ describe('waterBottle', function(){
     waterBottle.fill();
     assert.equal(100, waterBottle.amount);
   });
-  it('when drunk down by 10?', function(){
+  it('should get drunk', function(){
     waterBottle.fill();
     assert.equal(10, waterBottle.drink());
     assert.equal(90, waterBottle.amount);
@@ -19,7 +19,7 @@ describe('waterBottle', function(){
     waterBottle.empty();
     assert.equal(0, waterBottle.amount);
   });
-  it('no negative amount', function(){
+  it('should be empty at 0', function(){
     waterBottle.empty();
     assert.equal("No water", waterBottle.drink());
 
